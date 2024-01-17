@@ -19,6 +19,9 @@ class Main_Screen : AppCompatActivity() {
         btn4.setOnClickListener { startActivity(Intent(this, psy::class.java)) }
         val btn5 = findViewById<ImageButton>(R.id.imgAge)
         btn5.setOnClickListener { startActivity(Intent(this, Age::class.java)) }
+        val btn6= findViewById<ImageButton>(R.id.imgBut7)
+        btn6.setOnClickListener { startActivity(Intent(this, ai::class.java)) }
+
 
     }
 }

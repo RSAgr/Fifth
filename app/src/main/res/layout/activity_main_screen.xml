@@ -47,13 +47,13 @@
         android:layout_height="106dp"
         android:paddingLeft="50dp"
         android:paddingTop="30dp"
-        android:text="This is the space for daily motivational quotes"
+        android:text="    This is the space for daily motivational quotes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.108" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="120dp"
@@ -102,11 +102,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.916" >
 
+
         <ImageButton
-            android:id="@+id/imgBut5"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:srcCompat="@android:drawable/btn_star_big_on" />
+            android:id="@+id/imgBut7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ai" />
     </androidx.cardview.widget.CardView>
 
     <ImageButton
