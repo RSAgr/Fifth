@@ -23,5 +23,6 @@ class Main_Screen : AppCompatActivity() {
         btn6.setOnClickListener { startActivity(Intent(this, ai::class.java)) }
 
 
+
     }
 }

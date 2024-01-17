@@ -4,17 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main_Screen">
+    tools:context=".Main_Screen"
+    android:background="@drawable/bg">
+
     <androidx.cardview.widget.CardView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="140dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.773"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" >
+        app:layout_constraintVertical_bias="0.62">
+
 
         <ImageButton
             android:id="@+id/imgBut4"
@@ -24,15 +29,17 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="60dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.635" >
+        app:layout_constraintVertical_bias="0.635">
 
         <ImageButton
             android:id="@+id/imgBut3"
@@ -45,9 +52,11 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="106dp"
+        android:fontFamily="@font/allura"
         android:paddingLeft="50dp"
         android:paddingTop="30dp"
-        android:text="    This is the space for daily motivational quotes"
+        android:text="This is the space for daily motivational quotes"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -56,15 +65,17 @@
         app:layout_constraintVertical_bias="0.108" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="90dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" >
+        app:layout_constraintVertical_bias="0.364">
 
         <ImageButton
             android:id="@+id/imgBut1"
@@ -74,15 +85,17 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="73dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.773"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.363" >
+        app:layout_constraintVertical_bias="0.363">
 
         <ImageButton
             android:id="@+id/imgBut2"
@@ -94,13 +107,14 @@
     <androidx.cardview.widget.CardView
         android:layout_width="300dp"
         android:layout_height="120dp"
+        android:layout_marginTop="150dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916" >
+        app:layout_constraintVertical_bias="0.916">
 
 
         <ImageButton
